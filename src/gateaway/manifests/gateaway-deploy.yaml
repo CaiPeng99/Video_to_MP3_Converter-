@@ -1,0 +1,28 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: gateaway
+  labels:
+    app: gateaway
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: gateaway
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxSurge: 3
+  template:
+    metadata:
+      labels:
+        app: gateaway
+    spec:
+      containers:
+        - name: gateaway
+          image: cici000/gateaway
+          envFrom:
+            - configMapRef:
+                name: gateaway-configmap
+            - secretRef:
+                name: gateaway-secret
