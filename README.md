@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Video_to_MP3_Converter-
 A microservice project to conver video to mp3
 =======
@@ -31,4 +31,4 @@ the whole architecture looks like this:
 JWT looks like:
 <img width="1188" alt="Screenshot 2025-01-14 at 2 01 33 PM" src="https://github.com/user-attachments/assets/9b199f71-c9c6-4649-a61c-03cc7348aedc" />
 
->>>>>>> 9ac6242 (Initial commit)
+
