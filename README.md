@@ -72,6 +72,9 @@ The project leverages the following technologies:
 This combination of technologies provides a solid foundation for building a scalable, efficient, and maintainable video-to-MP3 conversion service.
 
 
+Inside RabbitMQ:
+
+<img width="724" alt="Screenshot 2025-01-14 at 5 36 10 PM" src="https://github.com/user-attachments/assets/47d24ae9-7e30-4b38-98e4-b1f1dfbb6df1" />
 
 
 
